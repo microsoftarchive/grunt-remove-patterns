@@ -9,7 +9,7 @@ module.exports = function (grunt) {
   var glob = grunt.file.glob;
   var async = grunt.util.async;
 
-  function FileRemover() {
+  function RecursiveRemove () {
 
     var done = this.async();
     var options = this.options();
@@ -28,5 +28,5 @@ module.exports = function (grunt) {
     }, done);
   }
 
-  grunt.registerTask('secureFiles', FileRemover);
+  grunt.registerTask('rm', RecursiveRemove);
 };
