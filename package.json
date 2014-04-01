@@ -12,7 +12,7 @@
   ],
   "author": "6Wunderkinder GmbH <web@6wunderkinder.com>",
   "contributors": [
-    "Adam Renklint <adam@renklint.com>"
+    "Adam Renklint <adam@renklint.com>",
     "Aditya <aditya@netroy.in>"
   ],
   "homepage": "https://github.com/wunderlist/grunt-remove-patterns",
