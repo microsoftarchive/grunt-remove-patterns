@@ -1,0 +1,27 @@
+{
+  "name": "grunt-remove-patterns",
+  "version": "0.1.0",
+  "description": "Remove files and folders matching patterns",
+  "main": "tasks/rm.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "grunt",
+    "rm"
+  ],
+  "author": "6Wunderkinder GmbH <web@6wunderkinder.com>",
+  "contributors": [
+    "Adam Renklint <adam@renklint.com>"
+    "Aditya <aditya@netroy.in>"
+  ],
+  "homepage": "https://github.com/wunderlist/grunt-remove-patterns",
+  "bugs": {
+    "url": "https://github.com/wunderlist/grunt-remove-patterns/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:wunderlist/grunt-remove-patterns.git"
+  },
+  "license": "MIT"
+}
