@@ -1,6 +1,6 @@
 {
   "name": "grunt-remove-patterns",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Remove files and folders matching patterns",
   "main": "tasks/rm.js",
   "scripts": {

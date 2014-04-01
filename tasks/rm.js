@@ -23,7 +23,9 @@ module.exports = function (grunt) {
       });
       async.forEachLimit(files, 10, function (file, _callback) {
         file = npath.resolve(dir, file);
-        child.exec('rm -rf ' + file, _callback);
+        child.exec('rm -rf ' + file, function () {
+          _callback();
+        });
       }, callback);
     }, done);
   }
